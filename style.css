@@ -1,0 +1,13 @@
+main {
+	width: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+}
+main div {
+	width: calc(100vh/16);
+	height: calc(100vh/16);;
+}
+main div:hover {
+	box-shadow: inset 0px 0px 0px 2px black;
+}
