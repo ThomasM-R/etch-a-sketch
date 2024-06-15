@@ -5,8 +5,8 @@ main {
 	height: 100vh;
 }
 main div {
-	width: calc(100vh/16);
-	height: calc(100vh/16);;
+	width: calc(100vh/var(--size));
+	height: calc(100vh/var(--size));
 }
 main div:hover {
 	box-shadow: inset 0px 0px 0px 2px black;
